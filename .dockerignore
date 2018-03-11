@@ -1,0 +1,12 @@
+# Ignore generated files that can be re-built in the container
+/node_modules/
+/bin/
+npm-debug.log
+now.json
+/public/stylesheets
+/public/javascripts
+
+# Files that aren't needed in docker at all
+.git*
+LICENSE
+README.md
